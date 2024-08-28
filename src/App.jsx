@@ -1,9 +1,13 @@
+import Food from "./components/Food";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import "./index.css";
-
 function App() {
   return (
     <>
-      <h1>Hello!</h1>
+      <Header />
+      <Food />
+      <Footer />
     </>
   );
 }
