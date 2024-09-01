@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
         <p>&copy; {new Date().getFullYear()} 0xmeric All Rights Reserved.</p>
     </footer>
-    
+                      
     </>
   )
 }
