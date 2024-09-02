@@ -1,3 +1,6 @@
+import "./index.css";
+import ToDoList from "./todolist-app/ToDoList";
+
 // import Button from "./components/Button";
 // import Card from "./components/Card";
 // import Food from "./components/Food";
@@ -9,13 +12,16 @@
 // import ProfilePicture from "./components/ProfilePicture";
 // import Counter from "./components/Counter";
 // import MyComponent from "./components/MyComponent";
-import ColorPicker from "./color-picker-app/ColorPicker";
-import "./index.css";
+// import ColorPicker from "./color-picker-app/ColorPicker";
+// import UpdateFunc from "./components/UpdateFunc";
+// import UpdateInState from "./components/UpdateInState";
+// import ArraysInState from "./components/ArraysInState";
+// import SetCar from "./components/SetCar";
+
 function App() {
   return (
     <>
-    <ColorPicker/>
-
+      <ToDoList />
     </>
   );
 }
