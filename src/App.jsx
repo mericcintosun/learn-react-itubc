@@ -8,12 +8,14 @@
 // import List from "./components/List";
 // import ProfilePicture from "./components/ProfilePicture";
 // import Counter from "./components/Counter";
-import MyComponent from "./components/MyComponent";
+// import MyComponent from "./components/MyComponent";
+import ColorPicker from "./color-picker-app/ColorPicker";
 import "./index.css";
 function App() {
   return (
     <>
-      <MyComponent />
+    <ColorPicker/>
+
     </>
   );
 }
