@@ -1,6 +1,7 @@
 import "./index.css";
 
-import DigitalClock from "./digital-clock-app/DigitalClock";
+import ComponentA from "./assets/use-context/ComponentA";
+// import DigitalClock from "./digital-clock-app/DigitalClock";
 // import UseEffectExample from "./components/UseEffectExample";
 // import UseEffect from "./components/UseEffect";
 // import ToDoList from "./todolist-app/ToDoList";
@@ -24,7 +25,7 @@ import DigitalClock from "./digital-clock-app/DigitalClock";
 function App() {
   return (
     <>
-      <DigitalClock/>
+    <ComponentA/>
     </>
   );
 }

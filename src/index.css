@@ -21,3 +21,10 @@
     align-items: center;
     min-height: 100dvh;
 }
+#box {
+    border: 3px solid;
+    padding: 25px;
+}
+#title {
+
+}
