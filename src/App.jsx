@@ -1,6 +1,7 @@
 import "./index.css";
 
-import UseRef from "./use-ref-hook/UseRef";
+import StopWatch from "./stopwatch-app/StopWatch";
+// import UseRef from "./use-ref-hook/UseRef";
 // import ComponentA from "./assets/use-context/ComponentA";
 // import DigitalClock from "./digital-clock-app/DigitalClock";
 // import UseEffectExample from "./components/UseEffectExample";
@@ -26,7 +27,7 @@ import UseRef from "./use-ref-hook/UseRef";
 function App() {
   return (
     <>
-    <UseRef/>
+    <StopWatch/>
     </>
   );
 }
