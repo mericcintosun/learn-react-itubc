@@ -7,14 +7,13 @@
 // import UserGreeting from "./components/UserGreeting";
 // import List from "./components/List";
 // import ProfilePicture from "./components/ProfilePicture";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
 import MyComponent from "./components/MyComponent";
 import "./index.css";
 function App() {
   return (
     <>
       <MyComponent />
-      <Counter/>
     </>
   );
 }
