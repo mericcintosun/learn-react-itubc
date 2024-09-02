@@ -1,6 +1,8 @@
 import "./index.css";
-import ToDoList from "./todolist-app/ToDoList";
 
+import UseEffectExample from "./components/UseEffectExample";
+// import UseEffect from "./components/UseEffect";
+// import ToDoList from "./todolist-app/ToDoList";
 // import Button from "./components/Button";
 // import Card from "./components/Card";
 // import Food from "./components/Food";
@@ -21,7 +23,7 @@ import ToDoList from "./todolist-app/ToDoList";
 function App() {
   return (
     <>
-      <ToDoList />
+      <UseEffectExample/>
     </>
   );
 }
