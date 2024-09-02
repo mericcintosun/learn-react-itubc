@@ -1,6 +1,7 @@
 import "./index.css";
 
-import ComponentA from "./assets/use-context/ComponentA";
+import UseRef from "./use-ref-hook/UseRef";
+// import ComponentA from "./assets/use-context/ComponentA";
 // import DigitalClock from "./digital-clock-app/DigitalClock";
 // import UseEffectExample from "./components/UseEffectExample";
 // import UseEffect from "./components/UseEffect";
@@ -25,7 +26,7 @@ import ComponentA from "./assets/use-context/ComponentA";
 function App() {
   return (
     <>
-    <ComponentA/>
+    <UseRef/>
     </>
   );
 }
