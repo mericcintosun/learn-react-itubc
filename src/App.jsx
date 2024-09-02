@@ -1,6 +1,7 @@
 import "./index.css";
 
-import UseEffectExample from "./components/UseEffectExample";
+import DigitalClock from "./digital-clock-app/DigitalClock";
+// import UseEffectExample from "./components/UseEffectExample";
 // import UseEffect from "./components/UseEffect";
 // import ToDoList from "./todolist-app/ToDoList";
 // import Button from "./components/Button";
@@ -23,7 +24,7 @@ import UseEffectExample from "./components/UseEffectExample";
 function App() {
   return (
     <>
-      <UseEffectExample/>
+      <DigitalClock/>
     </>
   );
 }
